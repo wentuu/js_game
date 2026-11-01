@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #7ca8d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.game-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.pokemon {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+}
+.progressbar {
+    background: #ddd;
+    border-radius: 5px;
+    height: 15px;
+    width: 100%;
+    margin: 10px 0;
+    overflow: hidden;
+}
+#progressbar-character, #progressbar-enemy {
+    background: green;
+    height: 100%;
+    transition: 0.3s;
+}
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.button {
+    padding: 10px 15px;
+    cursor: pointer;
+    background: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.button:hover {
+    background: #e6b800;
+}
